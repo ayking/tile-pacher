@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Spacing 2 and margin 2
+# Spacing 4 and margin 4
 
 import sys
 from PIL import Image as PIL_Image
