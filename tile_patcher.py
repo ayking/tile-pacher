@@ -24,8 +24,8 @@ originalHeight = original.size[1]
 xPos = TopPadding
 yPos = LeftPadding
 
-newImageWidth = int((ceil(originalWidth / tileSize) + 1) * (tileSize + 2))
-newImageHeight = int((ceil(originalHeight / tileSize)  + 1) * (tileSize + 2))
+newImageWidth = int((ceil(originalWidth / tileSize) + 1) * (newTileSize + Spacing)) + LeftPadding
+newImageHeight = int((ceil(originalHeight / tileSize)  + 1) * (newTileSize + Spacing)) + TopPadding
 resultImage = PIL_Image.new("RGBA", (newImageWidth, newImageHeight)) 
 
 def isEmpty(image):
